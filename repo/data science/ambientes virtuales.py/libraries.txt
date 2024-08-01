@@ -1,0 +1,132 @@
+matplotlib: Generación de gráficos a partir de listas o arrays.
+
+numpy: Cómputo científico para la manipulación de vectores.
+
+pandas: Manipulación y análisis de datos de tablas y series temporales.
+
+scipy: Herramientas y algoritmos matemáticos.
+
+seaborn: Visualización de datos estadísticos.
+
+
+
+collab tiene librerias y codigo que puedo usar ya escrito
+
+crtl + shift + p (command palette)
+shift + alt + f  (format code/document)
+command palette ---> sort imports
+
+
+-En la vida real, no vas a trabajar en un solo trabajo, si no en varios,
+ y cada uno tendrá diferentes dependencias y requerimientos 🤔.
+
+-Cuando se actualizan o se cambia la configuración de las dependencias de 
+un ambiente que tiene varios proyectos asociados puede haber errores 🛑.
+
+-Para poder separar proyectos, lo que hacemos es crear ambientes virtuales
+ diferentes para cada proyecto. 🧠 Entonces la configuración y actualizaciones son para cada proyecto.
+
+-Ambiente virtual: Proyecto que puede tener sus propias dependencias, independientemente de
+ las dependencias que tengan los demás proyectos (Scott Robinson y la gente de Real Python).
+
+
+ ------------------------------------------------------------
+
+ conda: como crear ambientes virtuales
+
+ Notas:
+
+Comandos:
+
+conda env list: Listar entornos virtuales creados
+
+conda create --name 'nombre' python=version(sin la version es
+ la ultima lanzada) librerias: Creación de un entorno virtual
+  con una version de python y librerias
+
+conda activate nombre: Activar un entorno virtual
+
+conda deactivate: Desactivar el entorno virtual
+
+conda list nombre: Visualizar version de la librerias
+
+conda update nombre: actualizar la libreria por la version mas reciente
+
+conda install nombre=version: instalar una version de una libreria
+
+conda install python=version libreria=version: Actualizar python
+ junto a librerias (estas operaciones se pueden realizar separadas)
+
+conda --name nombre --copy --clone nombreVirtualDuplicar: Crear un 
+entorno virtual con una version ya creada
+
+conda env list (todos los ambientes listados)
+
+https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf
+
+
+conda remove <paquete> para desinstalar un paquete en particular. 🗞️
+
+conda env remove <nombre de ambiente> para eliminar un ambiente completo 👀.
+
+No se puede eliminar el ambiente en el que te encuentras 🤔. 
+Necesitas desactivarlo primero.
+
+
+
+----------------------------------------------------
+
+
+#Crear ambiente
+conda create --name py39 python=3.9 pandas=1.2
+#Ir al ambiente
+conda activate py39
+# Instalar boltons
+conda install -c conda-forge boltons
+#Devolver a un punto anterio y asi no tener que remover
+conda list -r
+#Devolverme a larevision 0
+conda install --revision 0
+#Revisar si esta instalado
+conda list boltons
+#Exportar tu ambiente
+conda env export
+#Exportar tu ambiente pero sin las versiones
+conda env export --no-builds
+#Exportar tu ambiente LA MEJOR
+conda env export --from-history
+#Exportar tu ambiente a un archivo
+conda env export --from-history --file environment.yml
+#Remover ambiente 
+conda env remove --name py39
+#Importar el ambiente
+conda env create --file environment.yml
+#Ir al ambiente 
+conda activate py39
+
+
+--------------------------------
+mamba sirve para acelerar ambientes virtuales
+
+conda install -c conda-forge mamba
+Ayuda de mamba, paquetes, funciones disponibles
+
+
+mamba --help
+Instalar librerías
+
+
+mamba install
+Importar ambiente a partir de una archivo
+
+
+mamba env create --file enviroment.yml
+Activar ambiente
+
+
+conda activate py39
+Listar librerias
+
+
+conda list pandas
+conda list python

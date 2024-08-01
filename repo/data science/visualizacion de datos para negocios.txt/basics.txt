@@ -1,0 +1,533 @@
+https://www.kaggle.com/
+https://es-us.finanzas.yahoo.com/ Datos Financieros de Bolsa.
+https://es.investing.com/
+https://www.dane.gov.co/
+https://www.statista.com/
+https://trends.google.com/trends/?geo=US
+https://www.ncdc.noaa.gov/cdo-web/datatools/lcd Datos Climáticos
+https://www.who.int/ Observatorio mundial de salud
+https://registry.opendata.aws/ Datos de AWS (Servicio Cloud de Amazon) públicos, hay de todo.
+https://www.pewresearch.org/internet/datasets/ Data de todo
+
+
+¿Qué es la visualización de datos?
+
+El input(data): que es donde se encuentran los datos ya sea que estén organizados o no.
+ Output(insights): es la presentación de los datos de una manera visual para ayudar a retener la información.
+
+La visualización de datos sirve para reconocer patrones o encontrar más información para investigar.
+
+Los mapas, los ábacos, son ejemplos de visualización de datos.
+
+Utilizando la visualización de datos podemos organizar y mejorar el aprendizaje de datos
+ en la era de la información.
+
+ Artículo de Florence Nightingale:
+https://historia.nationalgeographic.com.es/a/florence-nightingale-heroina-hospitales_14173
+
+
+
+------------------------------------------------------------------------
+
+
+Curso de Tableau: Visualización de Datos y Storytelling para Negocios (aquí seré tu profe de nuevo 😄)
+Curso de Introducción a Business Intelligence con Power BI
+Curso de Google Data Studio
+Curso de Manipulación y Análisis de Datos con Pandas y Python
+
+
+-------------------------------------------------
+
+Es el esfuerzo que tenemos que hacer para retener la información. A mayor carga cognitiva,
+mayor esfuerzo para retener información, y a menor carga menor esfuerzo para retener. 
+Existen varios métodos para reducir la carga.
+
+La visualización efectiva y una carga cognitiva baja, nos ayuda a entender nuestra información.
+Y poder entregar a nuestra audiencia un mensaje adecuado y de forma eficiente, ademas de poder retenerlo de una manera muy sencilla.
+
+Ben Shneiderman (informático estadounidense ): “La visualización te da respuestas
+a preguntas que no sabias que tenias”.
+
+Es importante entender que al momento de hacer visualizaciones de datos,
+asumimos un rol importante, ya que cada vez que comunicamos los datos,
+existe una audiencia que va a recibir de forma directa o indirecta nuestro mensaje.
+Siempre debemos evitar el sesgo en todo momento.
+
+
+-------------------------------------------------------------
+
+Excel: es una hoja de cálculo desarrollada por Microsoft para Windows, macOS, Android e iOS.
+Cuenta con cálculo, herramientas gráficas, tablas calculares y un lenguaje de programación
+macro llamado Visual Basic para aplicaciones. Tableau: es la plataforma de análisis integral
+más eficaz, segura y flexible para sus datos. Potencie a las personas con el poder de los datos.
+
+Tableau fue diseñado para el individuo, pero se adapta a toda la empresa. Es la única plataforma
+de inteligencia de negocios que transforma sus datos para motivar acciones a partir de la
+información. 
+
+Power BI: es un servicio de análisis empresarial de Microsoft, su objetivo
+es proporcionar visualizaciones interactivas y capacidades de inteligencia empresarial
+con una interfaz lo suficientemente simple como para que los usuarios finales creen 
+sus propios informes y paneles. 
+
+Google Analytics: es una herramienta de analítica web de la
+empresa Google lanzada el 14 de noviembre de 2005. Ofrece información agrupada del tráfico
+que llega a los sitios web según la audiencia, la adquisición, el comportamiento y las
+conversiones que se llevan a cabo en el sitio web 
+
+Google Data Studio: es una herramienta
+gratuita que convierte sus datos en informes y paneles claros, totalmente personalizables
+y fáciles de consultar y compartir.
+
+
+-------------------------------------------------------------------------------
+
+Buenas prácticas: 1 - Definir una audencia y motivo (utilizar su lenguaje) 
+2 - Utilizar la percepción visual para bajar la carga cognitiva 
+3 - Estandarizar (usar siempre las mismas medidas y no cortar los ejes) 
+4 - Evitar imprimir sesgos personales (NO al Cherry-Picking) 
+5 - Simplificar pero sin recortar 6 - Recordar principios de Gestalt
+
+Relacionamos datos que están próximos, o con la misma forma o mismo grupo
+Entendemos que los datos en proximidad forman un patrón continuo
+
+
+principios de la gestalt
+
+
+Similitud: Como seres humanos inconscientemente agrupamos cosas visualmente, generalmente esto 
+suele estar asociado a un color,
+una forma o un tamaño.
+
+Continuación: Seguiremos los caminos más suaves (O más predecibles/lógicos) al ver diferentes
+elementos cruzarse, independientemente de como estuvieran hechos.
+
+Cierre: El cerebro, a partir de información/dibujos incompletos, automáticamente los completa,
+como trazando una linea mental que lo asocie directamente con algo ya vivido o visto.
+
+Proximidad: Dependiendo de la distancia o cercanía de una cantidad de objetos el cerebro asocia
+o agrupa distintos elementos como iguales por su proximidad.
+
+Figura/Fondo: Es aquel que aprovecha la forma en la que el cerebro procesa los espacios faltantes,
+creando dos objetos o elementos en una imágen por el contraste entre ambos elementos.
+
+Simetría y orden: El cerebro procesará las formas ambiguas de la manera más simple posible.
+
+Destino común: Todos los elementos que vayan o apunten en una misma dirección serán agrupados
+como uno solo. Ej: Bandada de pájaros,
+
+------------------------------------------------------------
+
+En el caso target, fue un algoritmo de machine learning que 
+(dado el comportamiento de la chica) le recomendó productos para bebe.
+Desde el punto de vista de UX, estas recomendaciones son muy valiosas
+para añadir valor constante al usuario. En el caso target, el mayor
+problema fue que la chica era menor de edad.
+
+Pienso que el problema no es el uso de la big data sino la falta
+de contexto. Es decir, no solo sirve hacer predicciones con datos
+masivos sin tomar en cuenta el impacto que pueda tener. No tiene
+nada de malo (pienso) mandar estas recomendaciones a una mujer de
++25 años, que a una adolescente.
+
+Desde el punto de vista de programar una red neuronal para predecir
+estos casos, hubiera agreagado pesos a este tipo de factores o si la
+persona tiene tendencias de comportamiento que indican que es una
+persona que vive independientemente (e.g. mayormente, una adolescente
+no es la encargada de hacer el súper en su casa).
+--------------------------------------------------------------
+
+Intro a los data viz (visualizaciones de datos)
+Son muy importantes ya que nos van a facilitar 
+el armado del reporte para enviar el mensaje sobre
+todo a las altas gerencias, que generalmente 
+no tienen el tiempo para leer el informe completo.
+
+
+Que es una grafica de barras?
+Es una representación utilizando barras, que nos ayudan a hacer una
+comparación rápida, a simple vista y que nos ayuda a entregar el mensaje
+de una manera efectiva. Como funciona? Es un ingreso de datos por
+categoría, en el cual la ALTURA de la barra nos indica la frecuencia 
+en la que los datos se van repitiendo. Que hacer? Estos gráficos
+vienen en distintas formas, podemos hacer diferentes representaciones,
+verticales, horizontales y stackeadas o apiladas. Estas ultimas
+tenemos que entender que representan el 100% en donde el color
+nos va a ayudar a saber que parte es cada categoría de nuestros valores
+. Debemos utilizar un color distinto para cada categoria.
+Tambien debemos, representarlo de mayor a menor para entender y 
+visualizar de una manera mas ordenada.
+
+---------------------------------------------------------------  
+
+No uses gráficos de pie cuando:
+
+- graficas 3D
+
+-Tengas más de 5 categorías
+
+-Tengas categorías con valores muy similares por ejemplo
+si tienes una categoría con porcentaje 35,36,37 es mejor 
+pensar en otro tipo de gráfico como el de barras porque se
+llevara más tiempo entenderlo y al ojo humano se le dificulta
+encontrar esas pequeñas diferencias.
+
+-Si dentro de tu gráfico la mayoría de las categorías
+es representada por valores pequeños es mejor utilizar 
+otro gráfico ya que en estos gráficos podrían llegar a 
+perderse o verse demasiado pequeñas y resultara más difícil
+para la audiencia.
+
+-También si en tu gráfico tienes categorías con valores
+iguales es mejor que cambies de gráfico. Es decir si tienes 
+categoría como A 15% ,B 12% , C 15%,D 12% , E 8% es
+mejor cambiar de gráfico porque no se podrá ver
+rápidamente la distribución de los datos.
+
+
+------------------------------------------------------------
+scatter plot
+
+Un posicionamiento en un plano de puntos según la correlación de dos variables. Ayuda a entender como están relacionadas estas dos variables.
+Qué hacer
+
+Los colores son muy importante
+Entender cual es la correlación
+
+Qué NO hacer
+
+No amontonar las anotaciones
+Lo que intentamos averiguar con las gráficas de dispersión es saber el tipo de relación que existe entre dos variables:
+
+📈 Positiva: Incrementando
+📉 Negativa: Disminuyendo
+🙅🏽‍♂️ No hay correlación: están los datos dispersos.
+
+
+------------------------------------------------------------
+grafica de burbujas
+
+Esta grafica es una variación del Scatter plot, pero muestra una dimensión
+adicional a las correlaciones entre los ejes X y Y, sino que además muestra
+el tamaño de la populación. 
+
+Que hacer? No necesariamente hay que hacer 
+correlaciones con ejes, sino también podemos mantener un gráfico único
+teniendo cuidado de las anotaciones de las burbujas pequeñas; el uso de
+los colores para cada categoría es fundamental. 
+
+Que no hacer? No utilizar gráficos 3D y tener cuidado
+con las anotaciones que no se crucen entre sí o no puedan leer.
+
+
+-----------------------------------
+
+grafica de mapas
+
+Resumen: Es una representación gráfica de datos ubicados geográficamente.
+Este gráfico requiere datos geolocalizados y programas que asistan la
+visualización de estos. 
+
+¿Qué hacer? No extenderse en el uso de datos,
+no se requieren tantos detalles y se puede utilizar un esquema sencillo
+pero entendible. 
+
+¿Qué no hacer? Abrumar el gráfico con información y
+anotaciones que no permitan demostrar fácilmente, el objetivo en sí
+del mapa. No caer en el sobreponer información.
+
+
+------------------------------------------
+
+Mapas de Isolíneas
+
+Utilizan líneas para poder unir áreas que determinen cierta similitud
+relacionada con alguna variable. Estos espacios suelen colorearse para
+mostrar distinción entre ellos. Este tipo de mapas son muy utilizados
+en el ámbito meteorológico, en el caso de la imagen podemos observar
+un mapa isobárico para medir la presión atmosférica.
+
+
+2. Mapas Coropléticos
+
+Son mapas que representan con color los lugares donde ocurrieron
+ciertos sucesos (variable). Durante las elecciones presidenciales
+de los Estados Unidos, esos mapas se utilizaron para demostrar
+el partido político que ganó en determinados estados.
+
+3. Mapas de Diagramas
+
+Estos mapas pueden considerarse como mapas combinados,
+ya que por lo general utilizan el color para hacer una 
+distinción de variable y alguna otra visualización sobre 
+cada segmento para mostrar una variable adicional. Generalmente
+estos mapas son utilizados en estadística geográfica, reportes
+económicos, de salud, etc.
+
+
+4. Mapas Anamórfico
+
+Estos mapas utilizan distintos tipos de figuras geométricas para identificar
+sucesos en determinadas ubicaciones geográficas.
+
+----------------------------------------------------------
+
+Gráfica de heat 
+
+Nos ayuda a sobreponer sobre otro tipo de visualización, una paleta de colores que nos va a ayudar a entender la frecuencia de los objetos o resultados que tengamos en nuestra base de datos.
+Qué hacer
+
+Utilizar los heat maps para saber donde se repiten más ciertos sucesos
+
+Qué no hacer
+
+No tener una buena calibración de colores
+
+Los heat map son una valiosa herramienta para entender el comportamiento
+de nuestros clientes en los establecimientos. Permite identificar
+las zonas del establecimiento por donde nuestros clientes pasan,
+se paran y ponen mayor atención, por tanto, descubrir las llamadas
+‘zonas muertas de la tienda’ o las zonas por las que los clientes
+no suelen pasar.
+
+Algunos beneficios que ofrecen los heat map son:
+
+• Ayuda a los retailers a realizar un seguimiento
+de lo que les gusta a los clientes. 
+• Mantiene un registro de lo que los clientes ignoran. 
+Dibuja un mapa del tráfico de clientes dentro de la tienda. 
+• Permite analizar los mejores sitios para colocar la publicidad. 
+• Permite analizar el éxito de las campañas de venta implementadas. 
+• Permite identificar el éxito de un producto concreto o gama de productos.
+• Detecta fallos en el diseño y/o organización de los productos en tienda.
+• Permite realizar pruebas test A/B con diferentes productos en la
+misma ubicación y analizar el rendimiento de cada uno de ellos.
+
+-----------------------------------
+
+grafica de tabla
+
+Gráfica de tablas
+Se tienes una representación de nuestros datos de una forma ordenada en
+filas y columnas.
+
+Que hacer
+
+Se usa acompañado de otro data viz para complementar la información
+Utilizar colores para hacer resaltes sobre los datos
+
+Que no hacer
+
+Utilizar datos extensos (ej. números con muchos decimales. 0.000275274)
+
+---------------------------------------
+
+
+La visualización de datos efectiva nos ayuda a:
+
+nos ayuda a que direccion y gerencia entiendan claramente 
+el mensaje que buscamos transmitirles y la conclusion a la
+que llegamos tras analizar los datos
+
+nos permite que nuestro mensaje sea claro y facil de interpretar 
+por lo cual miembros de nuestro equipo pueden facilmente estar 
+al dia con la información que estamos trabajando
+
+Nos permite comunicar de mejor manera lo que pensamos, inclusive
+nos permite poner en palabras conclusiones a las que no podiamos
+llegar sin verlas plamadas en una forma mas comprensible
+como una grafica
+
+
+--------------------------------------
+
+Agregando valor utilizando datos
+
+Los datos son simplemente numeros y letras. Lo mas importante es la interpretacion que le damos a los datos para obtener informacion relevante en la toma de decisiones de manera que estamos agregando valor para la empresa.
+
+Tal informacion nos ayuda a alcanzar objetivos, terminar metas 
+y responder todo lo que la empresa requiera.
+
+La exploracion nos permite encontrar cosas que no sabiamos
+que estaban alli o incluso entender que nuestros supuestos
+iniciales eran erroneos o que la interpretacion de los datos
+estaba equivocada.
+
+Debemos siempre hablar con la verdad y dejar que los datos
+hablen por nosotros.
+
+En la exploracion de los datos podemos descubrir nuevas 
+hipotesis como e meciono anteriormente.
+
+Hacer preguntas a los datos es de suma importancia ya que
+ayuda a descubrir conclusiones interesantes para nuestras
+historias (Porque los datos se comportan de cierta manera?,
+que implica la tendencia de los datos?)
+
+Trabajar en equipo contribuye a agregar valor a los datos.
+
+La comunicacion en equipo ayuda a crear una cohesion grupal donde
+podemos pasar a una mejor posicion siempre que sepamos comunicar 
+nuestros objetivos, alcances, nuestras tareas y obligaciones.
+
+Al final la toma de decisiones es el pilar fundamental de agregar
+valor a los datos
+
+
+------------------------------------------------------------------
+
+bussiness Intelligence
+
+Mi entendimiento de BI es conectar la parte más analítica del negocio a la toma de decisiones.
+Los analistas/científicos de datos pueden no ser las personas más calificadas para tomar decisiones.
+Los líderes de negocio pueden no ser quienes puedan interpretar mejor los datos.
+BI sirve para conectar ambos mundos.
+
+
+Diferencia entre Big Data y Business Intelligence El Big Data y el Business Intelligence,
+por sus similitudes, generan mucha confusión entre empresarios, emprendedores y directivos.
+Por ese motivo, os voy a exponer algunas claves para aclarar las diferencias entre ambas tecnologías.
+Empecemos por dar una definición de cada una de ellas:
+
+El concepto Big Data hace referencia a un conjunto de tecnologías y 
+herramientas capaz de capturar, almacenar y procesar grandes cantidades de datos en
+tiempo y coste asumibles para una organización.
+
+El Business Intelligence o inteligencia de negocio consiste en un conjunto 
+de técnicas de gestión empresarial que permiten a una organización tomar decisiones de
+negocio en base a datos, que han sido tratados por distintas herramientas para
+convertirlos en información.
+
+Por tanto en cuanto a sus diferencias: mientras el Big Data se centra en la captura,
+almacenamiento y procesamiento de los datos, el Business Intelligence se centra en
+los procesos de análisis de dichos datos para convertirlos en información y tomar
+las decisiones de negocio oportunas.
+
+Se puede decir que el dato siempre ha sido la fuente para procesos de Business
+Intelligence. Lo que ha cambiado en la actualidad es que el dato se ha vuelto masivo.
+Además, le hemos dado un nombre a las tecnologías capaces de tratarlo: Big Data.
+
+
+
+--------------------------------------------------------------------------------------------------
+
+Flujo de trabajo y etapas del Business Intelligence
+
+1. Recolección de datos
+
+La información que vamos a empezar a analizar puede ser muy diversa.
+Las bases de datos publicas las puedes usar para tus proyectos o incluso trabajo.
+Las privadas generalmente son generadas desde la misma empresa con información
+sensible que no debe ser divulgada..
+
+Información estructurada: Por ejemplo si viene ya organizada en una tabla. Información
+
+no estructurada: Puede ser un texto que se quiera analizar, requiere mayor esfuerzo
+para analizar.
+
+
+
+2.Limpieza de datos
+
+Segunda etapa y también muy demandante de tiempo. Antes de empezar a interpretar la información es
+necesario que los datos tengan formatos estandarizados (tipos de datos, tipos de valores, la forma
+en la que están escritos, etc) que faciliten la lectura para nosotros, otras personas y el software.
+Por ejemplo, si usamos texto tenemos que evitar usar carácteres especiales para evitar que el software
+tenga problemas a la hora de estandarizar.
+
+Existe un concepto muy importante en limpieza de datos: GIGO/RIRO (Garbage In, Garbage Out / Rubbish In, Rubbish Out).
+Ambos términos advierten que si ingresamos información basura vamos a obtener información basura.
+El producto final depende de la calidad de los datos.
+
+Estandarizada la información y controlada su calidad/relevancia podemos pasar al proceso de 
+preparación en el cual organizaremos esos datos para su uso.
+
+
+
+3.exploracion de datos 
+
+El proceso al cual más tiempo deberíamos dedicar. Implica analizar la información,
+contratastar con nuestras hipótesis y reformular preguntas a raíz de cada descubrimiento.
+El storytelling es un elemento importante de esta etapa por tratarse del método usado
+para unir los elementos y resultados de nuestro análisis de forma coherente,
+agregando valor al hacer sencilla su comunicación, procurando siempre evitar
+las preferencias personales, los sesgos de información o el uso engañoso de gráficos.
+
+Descubre, pregunta, reformula y analiza: mantente siempre con la mente
+abierta hacia nuevas conclusiones en el analisis
+
+Cuenta historias: presta atencion a los datos y la historia que ellos reflejan.
+“Los datos sin historias son solo numeros”. Tienes que ser muy objetivo a la hora de contar
+la historia que los datos te dan.
+
+Evita errores. Siempre ten en cuenta las buenas practicas.
+
+
+elegir la visualización correcta dato un input: https://datavizproject.com/# https://www.data-to-viz.com/#violin https://datavizcatalogue.com/search.html
+
+
+
+4.creacion de graficas 
+
+
+Las gráficas tienen como objetivo transmitir a la audiencia de manera clara el mensaje,
+por eso debemos tener en cuenta qué quiero comunicar y qué mensaje quiero dar,
+ya que siempre hay una gráfica específica a nuestra necesidad, que se adapta mejor a mi mensaje. Así mismo,
+tener en cuenta quién es mi audiencia para saber qué tipo de lenguaje utilizar y disminuir la carga cognitiva,
+entregando el mensaje de una forma efectiva y duradera en el tiempo.
+Tener en cuenta las buena prácticas aprendidas en cuanto al uso de
+colores para separar datos según el tipo de gráfica.
+
+graficas de barra para ver las categorias y subcateforias mas vendidas
+
+graficas de barra para ver los mejores clientes
+
+scatter plots para ver la correlacion entre sales, profit y discount
+
+graficas de mapa para ver las zonas con mejores ventas, peores ventas, y mayores descuentos
+
+graficas de dona, barra y lineales para ver en que trimestres del año hay mayores ventas y profit
+
+graficas de barra y scatter plots para ver en que meses hay mayores ventas y profit
+
+
+5.Generación de reportes con storytelling
+
+Los reportes son un conjunto de los mejores descubrimientos a modo de visualizaciones
+
+Debemos tener en cuenta que el tiempo es un recurso escaso para nuestra audiencia
+
+Concentrar nuestros resultados hacia un objetivo común
+
+Pensar en la mayor retención posible a menor esfuerzo
+
+----------------------------------------------------------------------------
+
++KPI++ o key performance indicator Recuerda S.M.A.R.T
+
+Specific
+Measurable
+Achievable
+Relevant
+Time bound
+
+Preguntas para hacer:
+
+¿Cuál es el resultado esperado?
+¿Cómo ayuda el resultado a conseguir la visión de éxito?
+¿Cómo sabremos que se llegó al resultado esperado?
+
+Anatomía de un KPI
+
+Objetivo cuantificable
+Timeframe para cumplirlo
+Data source desde donde tomar la información
+Frecuencia de revisión o reporte
+
+Los KPIs son objetivos o métricas con las cuales medirás tu desempeño. 
+
+Las métricas son medidas, números que obtenemos de ciertas actividades 
+indistintamente de su relevancia para el análisis en cuestión, mientras 
+que un KPI es una medida que nos indica si se ha cumplido o no un objetivo. 
+Dicho de otro modo: Todo KPI es una métrica (esencial) mientras que no todas
+las métricas son KPI (no todas tienen la misma importancia).
